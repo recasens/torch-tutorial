@@ -1,11 +1,12 @@
 #Install torch
-git clone https://github.com/torch/distro.git ~/torch --recursive
-cd ~/torch; bash install-deps;
-./install.sh
+git clone https://github.com/torch/distro.git ~/torch --recursive \n
+cd ~/torch; bash install-deps; \n
+./install.sh \n
 
 
 #Install ipython 
 
+--pip install ipython
 
 #install packages
 luarocks install mnist
