@@ -1,4 +1,4 @@
-To be ready for the tutorial, you would need to install some libraries. Here some installing instructions. 
+To be ready for the tutorial, you would need to install some libraries. Here some installing instructions for MAC OS X.
 
 #Install torch
 ``` bash
