@@ -5,6 +5,13 @@ To be ready for the tutorial, you would need to install some libraries. Here som
 git clone https://github.com/torch/distro.git ~/torch --recursive 
 cd ~/torch; bash install-deps; 
 ./install.sh 
+
+# On Linux with bash
+source ~/.bashrc
+# On Linux with zsh
+source ~/.zshrc
+# On OSX or in Linux with none of the above.
+source ~/.profile
 ```
 
 
