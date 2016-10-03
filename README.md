@@ -1,3 +1,5 @@
+To be ready for the tutorial, you would need to install some libraries. Here some installing instructions. 
+
 #Install torch
 ``` bash
 git clone https://github.com/torch/distro.git ~/torch --recursive 
@@ -11,11 +13,11 @@ cd ~/torch; bash install-deps;
 If needed:
 
 ``` bash
-pip install ipython
+pip install ipython==4
 ```
 
 
-#install packages
+#Install packages
 ``` bash
 luarocks install mnist
 luarocks install image
