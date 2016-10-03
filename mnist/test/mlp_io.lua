@@ -1,0 +1,16 @@
+require 'nn'
+require 'paths'
+
+local buildMLP = paths.dofile(paths.thisfile('../models/mlp.lua'))
+
+local mlp = buildMLP{nClasses=10, imgSize=28}
+
+local input = torch.rand(3, 1, 28, 28)
+local gradOutput = torch.rand(3, 10)
+
+print(mlp)
+
+mlp:forward(input)
+mlp:backward(input, gradOutput)
+
+print('Passed!')
