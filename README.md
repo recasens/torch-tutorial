@@ -1,7 +1,10 @@
 #Install torch
+``` bash
 git clone https://github.com/torch/distro.git ~/torch --recursive \n
 cd ~/torch; bash install-deps; \n
 ./install.sh \n
+```
+
 
 
 #Install ipython 
