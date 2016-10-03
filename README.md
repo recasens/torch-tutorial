@@ -9,11 +9,12 @@ cd ~/torch; bash install-deps;
 
 
 
-#Install ipython 
+#Install ipython and Jupyter
 If needed:
 
 ``` bash
 pip install ipython==4
+pip install jupyter
 ```
 
 
